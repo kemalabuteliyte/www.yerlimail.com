@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sayfa Bulunamadı · Eliyte Yerlimail</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      .errpage {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        padding: 64px 24px;
+      }
+      .errpage .code {
+        font-family: "Playfair Display", Georgia, serif;
+        font-size: clamp(5rem, 16vw, 9rem);
+        font-weight: 700;
+        line-height: 1;
+        background: linear-gradient(135deg, #1d4ed8 0%, #c89b3c 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="errpage">
+      <div>
+        <div class="code">404</div>
+        <h1>Aradığınız sayfa bulunamadı.</h1>
+        <p>Bağlantı taşınmış ya da hiç var olmamış olabilir.</p>
+        <a class="btn btn-primary btn-lg" href="/">Anasayfaya Dön</a>
+      </div>
+    </main>
+  </body>
+</html>

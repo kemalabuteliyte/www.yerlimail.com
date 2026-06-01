@@ -8,8 +8,7 @@
     "html_handling": "auto-trailing-slash"
   },
   "routes": [
-    { "pattern": "www.yerlimail.com", "custom_domain": true },
-    { "pattern": "yerlimail.com", "custom_domain": true }
+    { "pattern": "www.yerlimail.com", "custom_domain": true }
   ],
   "observability": {
     "enabled": true

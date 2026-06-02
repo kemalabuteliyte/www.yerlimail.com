@@ -1,13 +1,20 @@
-name = "wwwyerlimailcom"
+name               = "wwwyerlimailcom"
 compatibility_date = "2025-04-01"
+main               = "src/worker.js"
 
 [assets]
-directory = "./public"
+directory          = "./public"
 not_found_handling = "404-page"
-html_handling = "auto-trailing-slash"
+html_handling      = "auto-trailing-slash"
+binding            = "ASSETS"
+run_worker_first   = true
 
 [[routes]]
-pattern = "www.yerlimail.com"
+pattern      = "www.yerlimail.com"
+custom_domain = true
+
+[[routes]]
+pattern      = "webmail.yerlimail.com"
 custom_domain = true
 
 [observability]

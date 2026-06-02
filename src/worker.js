@@ -3,7 +3,7 @@
  *
  * Routes:
  *   POST /api/auth/login          → Mock auth API (always 401)
- *   webmail.yerlimail.com  /*     → Webmail login SPA
+ *   postakutusu.yerlimail.com  /*     → Webmail login SPA
  *   www.yerlimail.com      /*     → Static assets via ASSETS binding
  */
 
@@ -29,7 +29,7 @@ export default {
     }
 
     /* ── Webmail subdomain ──────────────────────────────────────── */
-    if (hostname === 'webmail.yerlimail.com') {
+    if (hostname === 'postakutusu.yerlimail.com') {
       return new Response(WEBMAIL_HTML, {
         headers: {
           'Content-Type': 'text/html;charset=UTF-8',

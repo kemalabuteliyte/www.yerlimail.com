@@ -14,7 +14,7 @@ pattern      = "www.yerlimail.com"
 custom_domain = true
 
 [[routes]]
-pattern      = "webmail.yerlimail.com"
+pattern      = "postakutusu.yerlimail.com"
 custom_domain = true
 
 [observability]
